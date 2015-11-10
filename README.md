@@ -1,5 +1,5 @@
 # Edison-remoteSSH
-Tool to upload Arduino's Sketchs in a Intel Edison over WiFi network by SSH.
+Tool to upload Arduino's sketchs in a Intel Edison over WiFi network by SSH.
 
 **Requirements:**
 * Arduino IDE 1.5.3+
@@ -8,6 +8,13 @@ Tool to upload Arduino's Sketchs in a Intel Edison over WiFi network by SSH.
 * Public Key Authenticacion
 * GNU Binutils (readelf)
 
+**Use**
+
+**Install**
+
+https://raw.githubusercontent.com/latchdevel/Edison-remoteSSH/master/IDE_Board_Manager/package_remotessh_index.json
+
+**Work**
 
 The "remoteSSH" upload tool need extract from elf compiled file some connection parameters.
 Minimum parameter is "host" of destination, "user" param is optional, if omitted will be "root".

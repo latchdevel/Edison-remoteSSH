@@ -1,0 +1,51 @@
+{
+  "name": "remoteSSH",
+  "maintainer": "latchdevel",
+  "websiteURL": "https://github.com/latchdevel/Edison-remoteSSH",
+  "email": "latch.devel@gmail.com",
+  "help":{
+            "online":"https://github.com/latchdevel/Edison-remoteSSH"
+         },
+         
+  "platforms": [
+          {
+               "name":"Arduino i686 Boards",
+               "architecture":"i686",
+               "category":"Contributed",
+               "help":{
+                  "online":"https://github.com/latchdevel/Edison-remoteSSH"
+               },
+               "boards":[
+                  { "name":"Intel®Edison RemoteSSH" }
+               ],
+               "toolsDependencies":[
+                  {
+                     "packager":"latchdevel",
+                     "name":"remoteSSH",
+                     "version":"1.0.0"
+                  },
+                  {
+                     "packager":"Intel",
+                     "name":"Intel i686 Boards",
+                     "version":"1.6.2+1.0"
+                  }
+               ]
+            }
+  ],
+
+  "tools": [
+      {
+          "name": "remotessh",
+          "version": "1.6.2+1.0",
+          "systems": [
+            {
+              "size": "61789",
+              "checksum": "SHA-256:8395ccb57c627f997fe01170df4613de906f48c6ce99623b9ca42806079c28ad",
+              "host": "i386-apple-darwin11",
+              "archiveFileName": "remotessh.1.0.tar.bz2",
+              "url": "github.com/latchdevel/Edison-remoteSSH/IDE_Board_Manager/remotessh.1.0.tar.bz2"
+            }
+          ]
+        }
+   ]
+}

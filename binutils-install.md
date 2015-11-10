@@ -1,8 +1,8 @@
 The "remoteSSH" upload tool need extract from elf compiled file some connection parameters.
-Minimum parameter is "host" of destination, "user" param is optional, if omitted will be "root".
+Minimum parameter is destination "host"; "user" parameter is optional, if omitted "root" will be used.
 There are several ways to do, one is by **readelf** command from GNU Binutils.
 
-This information is in the **'.comment'** section of the binary object. It can be read using this command:
+This information is in the **'.comment'** section of the binary object. It can be readed using this command:
 ```bash
   $ greadelf -p .comment /path/to/sketch.elf
   

@@ -20,7 +20,7 @@
                   "online":"https://github.com/latchdevel/Edison-remoteSSH"
                },
                "boards":[
-                  { "name":"Intel®Edison (RemoteSSH)" }
+                  { "name":"Intel® Edison (RemoteSSH)" }
                ],
                "toolsDependencies":[
                   {
@@ -39,7 +39,7 @@
 
   "tools": [
       {
-          "name": "remoteSSH",
+          "name": "remotessh",
           "version": "1.0.0",
           "systems": [
             {
@@ -47,7 +47,7 @@
               "checksum": "SHA-256:901db876f453f4b7f3d8370a96175301d35406872e896b469712ed86f1ce9ecf",
               "host": "i386-apple-darwin11",
               "archiveFileName": "tool_remotessh.1.0.0.tar.bz2",
-              "url": "https://github.com/latchdevel/Edison-remoteSSH/blob/master/IDE_Board_Manager/tool_remoteSSH.1.0.0.tar.bz2"
+              "url": "https://raw.githubusercontent.com/latchdevel/Edison-remoteSSH/master/IDE_Board_Manager/tool_remoteSSH.1.0.0.tar.bz2"
             }
           ]
         }

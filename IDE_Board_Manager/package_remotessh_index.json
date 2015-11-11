@@ -12,11 +12,15 @@
                "name":"Arduino i686 Boards",
                "architecture":"i686",
                "category":"Contributed",
+               "url": "https://raw.githubusercontent.com/latchdevel/Edison-remoteSSH/master/IDE_Board_Manager/remoteSSH.tar.bz2",
+               "archiveFileName": "remoteSSH.tar.bz2",
+               "checksum": "SHA-256:7aeb36b22c89b1c35b647342b84f349019ac6ca18edaf04c8a3ff7b74dae081d",
+               "size": "1200",
                "help":{
                   "online":"https://github.com/latchdevel/Edison-remoteSSH"
                },
                "boards":[
-                  { "name":"Intel®Edison RemoteSSH" }
+                  { "name":"Intel®Edison (RemoteSSH)" }
                ],
                "toolsDependencies":[
                   {
@@ -26,7 +30,7 @@
                   },
                   {
                      "packager":"Intel",
-                     "name":"Intel i686 Boards",
+                     "name":"core2-32-poky-linux",
                      "version":"1.6.2+1.0"
                   }
                ]
@@ -42,8 +46,8 @@
               "size": "1787",
               "checksum": "SHA-256:901db876f453f4b7f3d8370a96175301d35406872e896b469712ed86f1ce9ecf",
               "host": "i386-apple-darwin11",
-              "archiveFileName": "remotessh.1.0.0.tar.bz2",
-              "url": "https://github.com/latchdevel/Edison-remoteSSH/blob/master/IDE_Board_Manager/remoteSSH.1.0.0.tar.bz2"
+              "archiveFileName": "tool_remotessh.1.0.0.tar.bz2",
+              "url": "https://github.com/latchdevel/Edison-remoteSSH/blob/master/IDE_Board_Manager/tool_remoteSSH.1.0.0.tar.bz2"
             }
           ]
         }

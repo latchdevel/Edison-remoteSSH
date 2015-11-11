@@ -2,9 +2,9 @@
 Tool to upload Arduino sketches to a Intel Edison over WiFi network by SSH.
 
 **Requirements:**
-* Arduino IDE 1.5.3+
+* Arduino IDE 1.6.4+
 * SSH client tool set (ssh and scp)
-* Network connection to your Intel Edison Board
+* Network connection to Intel Edison Board
 * Public Key Authenticacion User
 * GNU Binutils (readelf)
 

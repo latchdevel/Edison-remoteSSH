@@ -9,7 +9,7 @@
          
   "platforms": [
           {
-               "name":"Arduino i686 Boards",
+               "name":"Intel Edison remoteSSH",
                "architecture":"i686",
                "category":"Contributed",
                "url": "https://raw.githubusercontent.com/latchdevel/Edison-remoteSSH/master/IDE_Board_Manager/remoteSSH.tar.bz2",

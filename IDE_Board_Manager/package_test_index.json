@@ -19,14 +19,13 @@
           "checksum": "SHA-256:ec3ff8a1dc96d3ba6f432b9b837a35fd4174a34b3d2927de1d51010e8b94f9f1",
           "size": "15005",
           "boards": [
-            {"name": "My Board"},
-            {"name": "My Board Pro"}
+            {"name":"Intel® Edison (RemoteSSH)"}
           ],
           "toolsDependencies": [
             {
-              "packager": "arduino",
-              "name": "avr-gcc",
-              "version": "4.8.1-arduino5"
+              "packager": "Intel",
+              "name": "core2-32-poky-linux",
+              "version": "1.6.2+1.0"
             },
             {
               "packager": "arduino",

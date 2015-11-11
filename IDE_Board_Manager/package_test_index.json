@@ -11,11 +11,11 @@
       "platforms": [
         {
           "name": "Test Board",
-          "architecture": "avr",
+          "architecture": "i686",
           "version": "1.0.0",
           "category": "Contributed",
           "help": {
-            "online": "http://janedeveloper.org/forum/myboard"
+            "online":"https://github.com/latchdevel/Edison-remoteSSH"
           },
           "url": "https://janedeveloper.github.io/myboard/myboard-1.0.0.zip",
           "archiveFileName": "myboard-1.0.0.zip",

@@ -14,10 +14,10 @@
           "architecture": "i686",
           "version": "1.0.0",
           "category": "Contributed",
-          "url": "https://janedeveloper.github.io/myboard/myboard-1.0.0.zip--",
-          "archiveFileName": "myboard-1.0.0.zip--",
-          "checksum": "SHA-256:ec3ff8a1dc96d3ba6f432b9b837a35fd4174a34b3d2927de1d51010e8b94f9f1",
-          "size": "15005",
+          "url": "https://raw.githubusercontent.com/latchdevel/Edison-remoteSSH/master/IDE_Board_Manager/remoteSSH.tar.bz2",
+          "archiveFileName": "remoteSSH.tar.bz2",
+          "checksum": "SHA-256:7aeb36b22c89b1c35b647342b84f349019ac6ca18edaf04c8a3ff7b74dae081d",
+          "size": "1200",
           "boards": [
             {"name":"Intel® Edison (RemoteSSH)"}
           ],

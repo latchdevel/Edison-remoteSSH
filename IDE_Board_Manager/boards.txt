@@ -1,0 +1,18 @@
+##############################################################
+# remotessh board 
+
+remotessh_edison.name=Intel® Edison (remoteSSH)
+remotessh_edison.upload.tool=remotessh
+remotessh_edison.upload.protocol=sam-ba
+remotessh_edison.upload.maximum_size=10000000
+remotessh_edison.upload.use_1200bps_touch=false
+remotessh_edison.upload.wait_for_upload_port=false
+remotessh_edison.upload.native_usb=false
+
+remotessh_edison.build.mcu=i686
+remotessh_edison.build.f_cpu=-m32
+remotessh_edison.build.core=arduino
+remotessh_edison.build.variant=edison_fab_c
+remotessh_edison.build.toolchain_path=x86_64-pokysdk-linux-eglibc/usr/bin/i586-poky-linux
+remotessh_edison.build.sysroot_path=i586-poky-linux-eglibc
+remotessh_edison.build.toolchain_prefix=i586-poky-linux-

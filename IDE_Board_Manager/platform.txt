@@ -1,0 +1,5 @@
+# remoteSSH
+# -------------------
+tools.remotessh.cmd.path={runtime.tools.remoteSSH-1.0.0.path}/remoteSSH/remoteSSH.sh
+tools.remotessh.upload.params.verbose=-vvvvvv
+tools.remotessh.upload.pattern=/bin/bash -l  "{cmd.path}" {build.path}/{build.project_name}.elf
